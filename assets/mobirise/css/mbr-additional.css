@@ -1414,13 +1414,13 @@ body {
   box-shadow: none !important;
 }
 .cid-rtACjeC9eE .navbar {
-  background: #ffffff;
+  background: #68152a;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-rtACjeC9eE .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #68152a;
 }
 .cid-rtACjeC9eE a {
   font-style: normal;
@@ -1511,7 +1511,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rtACjeC9eE .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #68152a;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1582,7 +1582,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #333333;
+  background-color: #f7ed4a;
 }
 .cid-rtACjeC9eE button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1648,6 +1648,10 @@ body {
 .cid-rtACjeC9eE .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-rtACjeC9eE .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-rtACjeC9eE .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-rtACjeC9eE .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rtACjeC9eE .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1655,11 +1659,6 @@ body {
 .cid-rtACjeC9eE .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rtACjeC9eE .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 992px) {
-  .cid-rtACjeC9eE .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rtACjeC9eE .collapsed button.navbar-toggler {
   display: block;
@@ -1748,6 +1747,10 @@ body {
   .cid-rtACjeC9eE .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rtACjeC9eE .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-rtACjeC9eE .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-rtACjeC9eE .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-rtACjeC9eE .navbar-collapse.collapsing .navbar-buttons,
   .cid-rtACjeC9eE .navbar-collapse.show .navbar-buttons {
